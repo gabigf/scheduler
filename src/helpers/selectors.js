@@ -14,9 +14,7 @@ export function getAppointmentsForDay(state, day) {
 
   const apptIds = selectedDay[0].appointments;
 
-  const resultsArray = apptIds.map((el) => {
-    return state.appointments[el];
-  });
+  const resultsArray = apptIds.map(el => state.appointments[el]);
 
   return resultsArray;
 }
@@ -36,7 +34,7 @@ export function getInterview(state, interview) {
 }
 
 
-// Function to find and return an array of interviews for a specified day
+// Function to find and return an array of interviewers for a specified day
 export function getInterviewersForDay(state, day) {
   if (state.days.length === 0) {
     return [];
