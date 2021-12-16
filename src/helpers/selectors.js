@@ -51,6 +51,6 @@ export function getInterviewersForDay(state, day) {
   const interviewerIds = selectedDay[0].interviewers;
 
   const resultsArray = interviewerIds.map(el => state.interviewers[el]);
-
+  
   return resultsArray;
 }
