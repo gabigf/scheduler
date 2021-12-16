@@ -9,12 +9,12 @@ const Form = props => {
 
   const reset = () => {
     setStudent('');
-    setInterviewer(null);
+    setInterviewer('');
   }
 
   const cancel = () => {
     reset();
-    props.onCancel();
+    return props.onCancel();
   }
 
   function validate() {
@@ -29,7 +29,7 @@ const Form = props => {
     }
   
     setError("");
-    props.onSave(student, interviewer);
+    return props.onSave(student, interviewer);
   }
 
   return (
