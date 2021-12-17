@@ -12,12 +12,12 @@ Testing is done by usong jest and cypress.
 
 ## Getting started
 
-Create a new repository using this repository as a template.
-Clone your repository onto your local device.
-Install dependencies using the `npm install` command.
-Start the web server using the `npm start` command. The app will be served at http://localhost:8080/.
-You will need to run the scheduler api simultaniously on a different terminal**
-Go to http://localhost:8080/ in your browser.
+-Create a new repository using this repository as a template.
+-Clone your repository onto your local device.
+-Install dependencies using the `npm install` command.
+-Start the web server using the `npm start` command. The app will be served at http://localhost:8080/.
+-You will need to run the scheduler api simultaniously on a different terminal**
+-Go to http://localhost:8080/ in your browser.
 
 ## To run the Jest Test Framework
 
